@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useState } from "react";
-import { Loader } from "@react-three/drei";
+import { Loader, Stats } from "@react-three/drei";
 import LoadingScreen from "./components/LoadingScreen";
 import MainContent from "./components/MainContent";
 import { useAudio } from "./lib/stores/useAudio";
@@ -13,7 +13,7 @@ function App() {
   );
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [hasInteracted, setHasInteracted] = useState(false);
-  const { setBackgroundMusic } = useAudio();
+  const { setBackgroundMusic, setHitSound, setSuccessSound } = useAudio();
 
   // Load and set up background music
   useEffect(() => {
@@ -23,14 +23,18 @@ function App() {
     setBackgroundMusic(bgMusic);
 
     const hitSound = new Audio("/sounds/hit.mp3");
+    hitSound.volume = 0.5;
+    setHitSound(hitSound);
+    
     const successSound = new Audio("/sounds/success.mp3");
     successSound.volume = 0.5;
+    setSuccessSound(successSound);
 
     return () => {
       bgMusic.pause();
       bgMusic.currentTime = 0;
     };
-  }, [setBackgroundMusic]);
+  }, [setBackgroundMusic, setHitSound, setSuccessSound]);
 
   // Simulate loading progress
   useEffect(() => {
@@ -84,6 +88,7 @@ function App() {
           {animationStage >= AnimationStage.MAIN_CONTENT && (
             <MainContent />
           )}
+          <Stats />
         </Suspense>
       </Canvas>
       
