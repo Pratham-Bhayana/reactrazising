@@ -36,7 +36,7 @@ export default function Navbar() {
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          {["Home", "Programs", "Calculator"].map((item) => (
+          {["Home", "About", "Services", "Programs", "Contact"].map((item) => (
             <a 
               key={item} 
               href={`#${item.toLowerCase()}`}
@@ -51,7 +51,7 @@ export default function Navbar() {
         {/* Talk to Agent Button */}
         <div className="hidden md:block">
           <button className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300">
-            Talk to Agent
+            Get Started
           </button>
         </div>
         
@@ -68,7 +68,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden fixed inset-0 bg-black/95 z-40 pt-20">
           <div className="flex flex-col items-center space-y-8 p-8">
-            {["Home", "Programs", "Calculator"].map((item) => (
+            {["Home", "About", "Services", "Programs", "Contact"].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase()}`}
@@ -82,7 +82,7 @@ export default function Navbar() {
               className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-6 py-2 rounded-full w-full max-w-xs"
               onClick={() => setMenuOpen(false)}
             >
-              Talk to Agent
+              Get Started
             </button>
           </div>
         </div>
