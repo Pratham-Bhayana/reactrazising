@@ -38,7 +38,7 @@ export default function ProgramsSection() {
           {/* Caribbean Programs */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/caribbean.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/Panama-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-xl font-bold text-white neon-text">Caribbean Citizenship Programs</h3>
@@ -73,9 +73,10 @@ export default function ProgramsSection() {
           {/* European Programs */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/europe.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/croatia-1-1-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
+                
                 <h3 className="text-xl font-bold text-white neon-text">European Residency & Citizenship</h3>
               </div>
             </div>
@@ -108,7 +109,7 @@ export default function ProgramsSection() {
           {/* North American Programs */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/north-america.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/Brazil-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-xl font-bold text-white neon-text">USA & Canada Programs</h3>
@@ -143,7 +144,7 @@ export default function ProgramsSection() {
           {/* Asia-Pacific Programs */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/asia-pacific.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/dubai-1-1-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-xl font-bold text-white neon-text">Asia-Pacific Options</h3>
@@ -178,7 +179,7 @@ export default function ProgramsSection() {
           {/* Emerging Options */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/emerging-markets.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/thailand-1-1-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-xl font-bold text-white neon-text">Emerging Market Programs</h3>
@@ -213,7 +214,7 @@ export default function ProgramsSection() {
           {/* Specialized Programs */}
           <div className="bg-gray-900 rounded-xl overflow-hidden glow-effect group">
             <div className="h-48 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/images/specialized.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/mexico-2-1-1536x1063.jpg')] bg-cover bg-center opacity-60"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-xl font-bold text-white neon-text">Specialized Pathways</h3>

@@ -68,7 +68,7 @@ export default function DetailedServicesSection() {
               </button>
             </div>
             <div className="order-1 md:order-2 bg-gray-900 p-1 rounded-xl glow-effect">
-              <div className="bg-[url('/images/citizenship.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
+              <div className="bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/neww5-scaled.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 p-4 bg-black/60 backdrop-blur-sm rounded-lg max-w-xs">
                   <p className="text-cyan-400 text-sm font-semibold">Starting from</p>
@@ -113,7 +113,7 @@ export default function DetailedServicesSection() {
               </button>
             </div>
             <div className="order-1 md:order-1 bg-gray-900 p-1 rounded-xl glow-effect">
-              <div className="bg-[url('/images/residency.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
+              <div className="bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/new-4-scaled.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 p-4 bg-black/60 backdrop-blur-sm rounded-lg max-w-xs">
                   <p className="text-cyan-400 text-sm font-semibold">Starting from</p>
@@ -158,7 +158,7 @@ export default function DetailedServicesSection() {
               </button>
             </div>
             <div className="order-1 md:order-2 bg-gray-900 p-1 rounded-xl glow-effect">
-              <div className="bg-[url('/images/investment.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
+              <div className="bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/Our-uSP-1024x909.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 p-4 bg-black/60 backdrop-blur-sm rounded-lg max-w-xs">
                   <div className="flex items-center space-x-2 mb-1">
@@ -219,7 +219,7 @@ export default function DetailedServicesSection() {
               </button>
             </div>
             <div className="order-1 md:order-1 bg-gray-900 p-1 rounded-xl glow-effect">
-              <div className="bg-[url('/images/additional-services.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
+              <div className="bg-[url('https://raizingsovereign.com/wp-content/uploads/2025/04/6-5.jpg')] bg-cover bg-center h-80 rounded-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 p-4 bg-black/60 backdrop-blur-sm rounded-lg max-w-xs">
                   <p className="text-cyan-400 text-sm font-semibold">Complete Package</p>
